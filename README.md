@@ -11,5 +11,5 @@ A web aplication for sharing and download no copyright images
 5. Html5
 6. Css3
 7. Sass
-7. ejs
-8. mongodb
+8. ejs
+9. mongodb
