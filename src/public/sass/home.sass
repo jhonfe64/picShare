@@ -1,0 +1,45 @@
+.jumbotron 
+    position: relative
+    height: 80vh
+    background-image: url('../../img/slide2.jpg')
+    background-position: center, center
+    background-repeat: no-repeat
+    background-size: cover
+    overflow-y: hidden
+    background-attachment: scroll
+    &::before
+        content: ''
+        height: 100%
+        width: 100%
+        background-color: rgba(0, 0, 0, .5)
+        position: absolute
+    .container
+        z-index: 1000
+        h1
+            font-size: 9rem
+        h3
+            font-size: 4rem    
+        .searching
+            div
+                form
+                    input
+                        width: 95%
+                        border-radius: 0
+                        border: none
+                        &:focus
+                            outline: 0
+                            box-shadow: none
+                    button
+                        border: none
+                        width: 5%
+                        border-radius: 0
+                        &:focus
+                            outline: 0
+                            box-shadow: none
+// div
+//     ul 
+//         padding: 0
+//         display: flex
+//         overflow-x: scroll
+//         overflow-y: hidden
+//         li                   
