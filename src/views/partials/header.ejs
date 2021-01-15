@@ -1,24 +1,28 @@
-<header>
+<header class="fixed-top w-100 bg-white" id="mainHeader">
     <div class="container">
-        <div class="row d-flex align-items-center pt-4 pb-4">
-            <div class="col-4 col-lg-3">
+        <div class="row d-flex align-items-center pt-5 pb-5">
+            <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center d-lg-block mb-4 mb-lg-0">
                 <div class="img-container">
-                    <img class="img-fluid" src="../../img/logo.png" alt="">
+                    <a href="/">
+                        <img class="img-fluid" src="../../img/logo.png" alt="">
+                    </a>
                 </div>
             </div>
-            <div class="col-12 col-md-6 d-none d-lg-block">
+            <div class="col-12 col-md-6 d-none  d-lg-block">
                 <form class="d-flex mt-3 mt-md-0" action="">
                     <input class="form-control border-0 bg-light pl-3" type="search" placeholder="Que estás buscando" aria-label="default input example">
-                    <button class="btn btn-dark">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                      </svg>
-                </button>
+                    <button class="btn btn-light">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                    </button>
                 </form>
             </div>
-            <div class="col-8 col-lg-3 d-flex justify-content-end">
-                <a class="btn btn-info rounded-0" href="#">Ingresar</a>
-                <a class="btn btn-light ml-2 rounded-0 ms-3" href="#">Registrarse</a>
+            <div class="col-12 col-lg-3 d-flex justify-content-center justify-content-lg-end">
+                <a class="btn btn-dark rounded-0" href="#">Ingresar</a>
+                <a class="btn btn-light ml-2 rounded-0 ms-3" href="/signup">Registrarse</a>
+                <!-- <a class="btn btn-dark rounded-0 px-5" href="/profile">Perfil</a>
+                <a class="btn btn-light ml-2 rounded-0 ms-3" href="#">Cerrar Sesión</a> -->
             </div>
         </div>
     </div>

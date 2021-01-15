@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAKoB,cALN,CACV,KAAK,CACD,UAAU,CACN,IAAI,CACA,GAAG,CACC,GAAG,AAAC,CACA,KAAK,CAAE,GAAG,CAAG",
+    "sources": [
+        "../sass/upload_images.sass"
+    ],
+    "names": [],
+    "file": "upload_images.css"
+}

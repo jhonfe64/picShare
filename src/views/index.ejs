@@ -2,28 +2,124 @@
 <%- include('./partials/header'); -%>
 
 
-<div class="jumbotron d-flex align-items-center">
+<div class="jumbotron d-flex align-items-center" id="jumbotron">
     <div class="container">
         <h1 class="text-white">Las mejores fotos</h1>
-        <h3 class="text-white">De creadores independientes a nivel mundial</h3>
+        <h3 class="text-white mb-4">De creadores independientes a nivel mundial</h3>
         <p class="text-white font-1-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nemo unde soluta vitae ut id aspernatur ullam, qui vero saepe natus reiciendis</p>
         <div class="searching">
             <div class="input-group">
                 <form action="" class="d-flex w-100 mt-5">
-                    <button class="btn bg-dark">
+                    <button class="btn btn-dark">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-searc text-white" viewBox="0 0 16 16">
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                         </svg>
                     </button>
-                    <input type="text" class="form-control pt-3 pb-3 font-1-5 ps-4 border-end-0" placeholder="Que estás buscando" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    <input type="text" class="form-control pt-2 pb-2 font-1-5 ps-4 border-end-0" placeholder="Que estás buscando" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                 </form>
             </div>
         </div>
     </div>
 </div>
-<div class="p-3">
-</div>
+<div class="p-4 bg-light" style="position: sticky; top: 98px; background-color: rosybrown;">
+    <ul>
+        <style>
+            ul {
+                margin: 0;
+                display: flex;
+                overflow: hidden;
+                width: 100%;
+                padding: 0;
+            }
 
+            ul button {
+                position: absolute;
+                width: 30px;
+                top: 0;
+                bottom: 0;
+                background-color: #f8f9fa;
+            }
+            ul button.left_btn {
+                left: 0;
+                border: 0;
+            }
+            ul button.right_btn {
+                right: 0;
+                border: none;
+            }
+            ul li {
+                font-size: 20px;
+                margin-right: 17px;
+                margin-left: 17px;
+                font-size: 1.6rem;
+            }
+        </style>
+            <button class="left_btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                  </svg>
+            </button>
+            <button class="right_btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                  </svg>
+            </button>
+            <li>Wallpapers</li>
+            <li>Naturaleza</li>
+            <li>Gente</li>
+            <li>Arquitectura</li>
+            <li>Eventos</li>
+            <li>Películas</li>
+            <li>Salud</li>
+            <li>Interiores</li>
+            <li>Tecnológia</li>
+            <li>Viajes</li>
+            <li>Textura</li>
+            <li>Negocios</li>
+            <li>Trabajo</li>
+            <li>Animales</li>
+            <li>Autos</li>
+            <li>Computadores</li>
+            <li>Teléfonos</li>
+            <li>Comida</li>
+            <li>Tecnología</li>
+            <li>etc</li>
+            <li>Películas</li>
+            <li>Salud</li>
+            <li>Interiores</li>
+            <li>Tecnológia</li>
+            <li>Viajes</li>
+            <li>Textura</li>
+            <li>Negocios</li>
+            <li>Trabajo</li>
+            <li>Animales</li>
+            <li>Autos</li>
+            <li>Computadores</li>
+            <li>Teléfonos</li>
+            <li>Comida</li>
+            <li>Tecnología</li>
+            <li>etc</li>
+            <li>Teléfonos</li>
+            <li>Comida</li>
+            <li>Tecnología</li>
+            <li>etc</li>
+            <li>Películas</li>
+            <li>Salud</li>
+            <li>Interiores</li>
+            <li>Tecnológia</li>
+            <li>Viajes</li>
+            <li>Textura</li>
+            <li>Negocios</li>
+            <li>Trabajo</li>
+            <li>Animales</li>
+            <li>Autos</li>
+            <li>Computadores</li>
+            <li>Teléfonos</li>
+            <li>Comida</li>
+            <li>Tecnología</li>
+            <li>etc</li>
+    </ul>
+</div>
 <%- include('./layouts/footer'); -%>
 
 
