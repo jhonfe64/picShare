@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const {Schema} = expess;
+const {Schema} = mongoose;
 
 const CollectionSchema = new Schema({
     collection_name: String,

@@ -1,6 +1,5 @@
-const express = require('express');
 const mongoose = require('mongoose');
-const {Schema} = expess;
+const {Schema} = mongoose;
 
 const ImageSchema = new Schema({
     image_name: String,

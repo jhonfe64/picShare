@@ -1,5 +1,5 @@
-const express = require('express');
-const {Schema} = express;
+const mongoose = require('mongoose');
+const {Schema} = mongoose;
 
 const CommentsSchema = new Schema({
     comment: String

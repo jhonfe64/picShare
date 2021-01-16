@@ -1,5 +1,5 @@
-const express = require('express');
-const {Schema} = express();
+const mongoose = require('mongoose');
+const {Schema} = mongoose;
 
 const UserSchema = new Schema({
     names: String,
@@ -14,4 +14,4 @@ const UserSchema = new Schema({
     time_stamp: {type: Date, default: Date.now}
 });
 
-module.exports = mongoose.model('user', UserSchema);
+module.exports = mongoose.model('User', UserSchema);

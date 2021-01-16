@@ -1,3 +1,23 @@
-.signUp
+.signUp_page
+    background-image: url('../img/back.jpg')
+    background-position: center, center
+    background-size: cover
+    height: 100% !important
+    overflow-y: scroll
+    position: relative
+    &::before
+        content: " "
+        position: absolute
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+        background: rgba(0, 0, 0,0.6)
     .row
-       
+        div
+            z-index: 1000
+            form
+                box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3)
+                input
+                    border: none
+                    border-bottom: 1px solid #ecf0f1

@@ -1,16 +1,18 @@
 <%- include('./layouts/header', {title: 'sign up'}); -%>
-<section class="signUp_page h-100 d-flex align-items-center">
+<section class="signUp_page h-100 d-flex align-items-center" id="signUp_page">
     <div class="container">
         <div class="row d-flex justify-content-center">
-            <div class="col-8">
-                <div class="row">
-                    <div class="col-6">
-                        <img class="img-fluid" src="../img/back.jpg" alt="">
-                    </div>
-                    <div class="col-6">
-                        
-                    </div>
-                </div>
+            <div class="col-12 col-lg-6">
+                <form method="POST" action="/signup" class="bg-white p-5 rounded" id="authentication_forms">
+                    <h1 class="mb-5">Regístrese</h1>
+                    <input autocomplete="off" name="names" class="form-control mb-5" type="text" placeholder="Nombres" aria-label="default input example">
+                    <input autocomplete="off" name="last_names" class="form-control  mb-5" type="text" placeholder="Apellidos" aria-label="default input example">
+                    <input autocomplete="off" name="user" class="form-control  mb-5" type="text" placeholder="Usuario" aria-label="default input example">
+                    <input autocomplete="off" name="email" class="form-control  mb-5" type="email" placeholder="Correo" aria-label="default input example">
+                    <input autocomplete="off" name="password" id="password" class="form-control  mb-5" type="text" placeholder="Contraseña" aria-label="default input example">
+                    <input autocomplete="off" id="confirm_password" name="password_confirmation" class="form-control  mb-5" type="text" placeholder="Confirmar contraseña" aria-label="default input example">
+                    <button class="btn btn-primary w-100 py-2 mb-3" id="send">Enviar</button>
+                </form>
             </div>
         </div>
     </div>

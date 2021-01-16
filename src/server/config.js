@@ -22,9 +22,9 @@ module.exports = function(app){
 
     app.use(express.json());
 
-    routes(app);
-
     app.use(express.static(path.join(__dirname, '../public')));
+
+    routes(app);
 
     return app;
 }

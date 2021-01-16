@@ -2,7 +2,7 @@
 * 
     padding: 0
     margin: 0
-    box-sizing: border-box  
+    box-sizing: border-box 
 html
     font-size: 10px
     body
@@ -12,10 +12,12 @@ html
             list-style: none
         form 
             font-size: 3rem
-            input
-                font-size:1.6rem !important
+            input, button
+                font-size:1.6rem
+                &:focus
+                    outline: 0
+                    box-shadow: none !important
 
-        
 
 @import 'header'
 @import 'home'

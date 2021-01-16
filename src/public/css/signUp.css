@@ -1,1 +1,2 @@
-/* No CSS *//*# sourceMappingURL=signUp.css.map */
+.signUp_page{background-image:url("../img/back.jpg");background-position:center, center;background-size:cover;height:100% !important;overflow-y:scroll;position:relative}.signUp_page::before{content:" ";position:absolute;left:0;right:0;top:0;bottom:0;background:rgba(0,0,0,0.6)}.signUp_page .row div{z-index:1000}.signUp_page .row div form{-webkit-box-shadow:1px 2px 5px rgba(0,0,0,0.3);box-shadow:1px 2px 5px rgba(0,0,0,0.3)}.signUp_page .row div form input{border:none;border-bottom:1px solid #ecf0f1}
+/*# sourceMappingURL=signUp.css.map */
